@@ -4,9 +4,9 @@ function makeid(l) {
 	let random = "";
 	for (let index = 0; index < l; index++) {
 		let num = Math.random()*str.length();
-		str += str[num];
+		random += str[num];
 	}
-	return str;
+	return random;
 }
 
 // Do not change the code below
